@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>Label</key>
+        <string>com.canalrefreshbot.main</string>
+        <key>ProgramArguments</key>
+        <array>
+            <string>/Users/flippackstation5/python_scripts/canal-is-shit/venv/bin/python3</string>
+            <string>/Users/flippackstation5/python_scripts/canal-is-shit/main.py</string>
+        </array>
+        <key>WorkingDirectory</key>
+        <string>/Users/flippackstation5/python_scripts/canal-is-shit</string>
+        <key>StartInterval</key>
+        <integer>86400</integer> <!-- 1 day in seconds -->
+        <key>StandardOutPath</key>
+        <string>/Users/flippackstation5/python_scripts/canal-is-shit/logs/main.out</string>
+        <key>StandardErrorPath</key>
+        <string>/Users/flippackstation5/python_scripts/canal-is-shit/logs/main.err</string>
+    </dict>
+</plist>
